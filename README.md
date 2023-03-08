@@ -3,7 +3,8 @@ To build recommendation system for users who wish to fly domestically. We hope t
 
 The dataset we have is for flight delays. It shows that there have been 2201 airplane flights in January 2004, flying from the Washington DC area into the NYC area. The main characteristic of interest (the response) is if a flight has been delayed by more than 15 min (coded as 0 for no delay, and 1 for delay) or not. The explanatory variables include three different arrival airports—John F Kennedy, Newark, and LaGuardia. The three different departure airports are Reagan, Dulles, and Baltimore, along with eight carriers, and a categorical variable for 16 different hours of departure (6 am to 10 pm). The other variables include weather conditions (0 = good/1 = bad) and day of the week (1 for Sunday and Monday and 0 for all other days).
 
-Checking for missing values
+Checking for missing values:
+
  ![image](https://user-images.githubusercontent.com/127339967/223868296-a23ec07c-8182-4417-ae7e-2a96dee9c18b.png)
 
 As we can see that our dataset has no missing values. 
